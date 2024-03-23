@@ -3,19 +3,14 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#D9D9D9",   
     justifyContent: "center",
     alignItems: "center",
   },
-  button: {
-    marginTop: 20,
-    padding: 10,
-    backgroundColor: "#C9D4FF",
-    borderRadius: 5,
-  },
   user: {
+    backgroundColor: "#37363D",
     marginTop: 20,
     padding: 10,
-    backgroundColor: "#C9D4FF",
     borderRadius: 5,
   },
   text: {

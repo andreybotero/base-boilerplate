@@ -13,7 +13,7 @@ const TouchButton = ({ route, title, data }) => {
         style={styles.button}
         onPress={() => navigation.navigate(route, { data })}
       >
-        <Title title={title} />
+        <Title title={title} style={styles.title} />
       </TouchableOpacity>
     </View>
   );
